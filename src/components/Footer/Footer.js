@@ -34,9 +34,10 @@ const Footer = () => {
               width: "40px",
               borderRadius: "3px",
               background: "#14140D",
-              fill: "white",
               margin: "5px 5px",
+              size:"24px"
             }}
+
           />
           <Twitter
             style={{
@@ -45,8 +46,8 @@ const Footer = () => {
               width: "40px",
               borderRadius: "3px",
               background: "#14140D",
-              fill: "white",
               margin: "5px 5px",
+              size:"24px"
             }}
           />
           <Youtube
@@ -56,20 +57,20 @@ const Footer = () => {
               width: "40px",
               borderRadius: "3px",
               background: "#14140D",
-              fill: "white",
               margin: "5px 5px",
+              size:"24px"
             }}
           />
-          <Instagram
+          <Instagram 
             style={{
               border: "1px solid dark",
               height: "40px",
               width: "40px",
               borderRadius: "3px",
               background: "#14140D",
-              fill: "white",
               margin: "5px 5px",
             }}
+           
           />
         </div>
       </Navbar>

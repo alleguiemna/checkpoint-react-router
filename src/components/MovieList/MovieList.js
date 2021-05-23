@@ -33,8 +33,11 @@ const MovieList = ({ movieList }) => {
         >
           TOP FILMS:
           <br />
-          <div style={{marginLeft:"310px"}}>
-            <Carousel className="carousel" style={{height:"180px",width:"250px"}}>
+          <div style={{ marginLeft: "310px" }}>
+            <Carousel
+              className="carousel"
+              style={{ height: "180px", width: "250px" }}
+            >
               <Carousel.Item interval={4500}>
                 <img
                   className="d-block w-100"
@@ -71,7 +74,7 @@ const MovieList = ({ movieList }) => {
                   src="https://i.pinimg.com/564x/8b/49/9f/8b499f1ec8a0851b6ee7afe54093661c.jpg"
                   alt=""
                 />
-                <Carousel.Caption >
+                <Carousel.Caption>
                   <h6>la reine des neiges 2</h6>
                 </Carousel.Caption>
               </Carousel.Item>
