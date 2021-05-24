@@ -7,7 +7,7 @@ import {
   Tooltip,
 } from "react-bootstrap";
 import ReactStars from "react-rating-stars-component";
-import { Film, Home, LogIn, Menu } from "react-feather";
+import { Film, Home, Menu } from "react-feather";
 import { Link } from "react-router-dom";
 
 const Filter = ({ handleChange, title, ratingChanged, rating }) => {
@@ -159,13 +159,13 @@ const Filter = ({ handleChange, title, ratingChanged, rating }) => {
           className=""
           alt=""
         />{" "}
-        <Link to="/" style={{color:"white"}}>
+        
           <h6 style={{ color: "white" }}>
             <Home className="home" size="20" color="white" />
             ACCEUIL
           </h6>
-        </Link>
-        <Link to="/MenuFilm" style={{color:"white"}}>
+        
+        
           <OverlayTrigger
             placement="bottom"
             delay={{ show: 250, hide: 400 }}
@@ -176,8 +176,8 @@ const Filter = ({ handleChange, title, ratingChanged, rating }) => {
               MENU FILMS
             </h6>
           </OverlayTrigger>
-        </Link>
-        <Link to="/Menu" style={{color:"white"}}>
+      
+        
           <OverlayTrigger
             placement="bottom"
             delay={{ show: 250, hide: 400 }}
@@ -188,13 +188,8 @@ const Filter = ({ handleChange, title, ratingChanged, rating }) => {
               MENU
             </h6>
           </OverlayTrigger>
-        </Link>
-        <Link to="/Login" style={{color:"white"}}>
-          <h6 style={{ marginLeft: "-150px", color: "white" }}>
-            <LogIn className="film" size="20" color="white" />
-            LOGIN
-          </h6>
-        </Link>
+       
+        
         <div>
           <Form inline>
             <FormControl

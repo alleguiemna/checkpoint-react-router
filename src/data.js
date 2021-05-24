@@ -9,7 +9,7 @@ export const movieData = [
         duration:"100 min",
         genre: "Nouveaux / Science-Fiction / Thriller",
         director:"Alexandre Aja",
-        trailer:"https://www.youtube.com/watch?v=8IqXgZd-P98"
+        trailer:"https://www.youtube.com/embed/D7pHZqUFaKM",
     },
     {
         id:Math.random(),
@@ -21,7 +21,7 @@ export const movieData = [
         duration:"103 min",
         genre:"Nouveaux / Action / Aventure / Fantastique",
         director:"Simon McQuoid",
-        trailer:"https://www.youtube.com/watch?v=NYH2sLid0Zc"
+        trailer:"https://www.youtube.com/embed/NYH2sLid0Zc",
     },
     {
         id:Math.random(),
@@ -33,7 +33,7 @@ export const movieData = [
         duration:"122 min",
         genre:"Nouveaux / Action / Aventure / Fantastique",
         director:"Tomas Alfredson",
-        trailer:"https://www.youtube.com/watch?v=rqX_n73BnXY"
+        trailer:"https://www.youtube.com/embed/rqX_n73BnXY",
     },
     {
         id:Math.random(),
@@ -45,7 +45,7 @@ export const movieData = [
         duration:"160 min",
         genre:"VOSTFR / Drame",
         director:"Thomas Kail",
-        trailer:"https://www.youtube.com/watch?v=DSCKfXpAGHc"
+        trailer:"https://www.youtube.com/embed/DSCKfXpAGHc",
     },
     {
         id:Math.random(),
@@ -57,7 +57,7 @@ export const movieData = [
         duration:"100 min",
         genre:"Drame / Science-Fiction / Thriller",
         director:" Julia Hart",
-        trailer:"https://www.youtube.com/watch?v=tySUZIiXObc&pp=ugMICgJmchABGAE%3D"
+        trailer:"https://www.youtube.com/embed/VbbgfU_vU7A",
     },
     {
         id:Math.random(),
@@ -69,7 +69,7 @@ export const movieData = [
         duration:"97 min",
         genre:" Action / Comedie / Crime",
         director:"Don Michael Paul",
-        trailer:"https://www.youtube.com/watch?v=d-2rYQhoUDo"
+        trailer:"https://www.youtube.com/embed/d-2rYQhoUDo",
     },
     {
         id:Math.random(),
@@ -81,7 +81,7 @@ export const movieData = [
         duration:"76 min",
         genre:"Thriller / Crime",
         director:"Savvas D. Michael",
-        trailer:"https://www.youtube.com/watch?v=paxa_Wa6a-A"
+        trailer:"https://www.youtube.com/embed/paxa_Wa6a-A",
     },
     {
         id:Math.random(),
@@ -93,7 +93,7 @@ export const movieData = [
         duration:"113 min",
         genre:"Comedie / Drame",
         director:"Azazzal Jacobs",
-        trailer:"https://www.youtube.com/watch?v=bqMJeE15YiA"
+        trailer:"https://www.youtube.com/embed/bqMJeE15YiA",
     },
     {
         id:Math.random(),
@@ -105,7 +105,7 @@ export const movieData = [
         duration:"100 min",
         genre:"VOSTFR / Action / Drame / Thriller",
         director:"Taylor Sheridan ",
-        trailer:"https://www.youtube.com/watch?v=sV6VNNjBkcE"
+        trailer:"https://www.youtube.com/embed/sV6VNNjBkcE",
     },
     {
         id:Math.random(),
@@ -117,7 +117,7 @@ export const movieData = [
         duration:"83 min ",
         genre:"VOSTFR / Epouvante-horreur / Thriller",
         director:"Natasha Kermani",
-        trailer:"https://www.youtube.com/watch?v=5TC2QkqqtgQ"
+        trailer:"https://www.youtube.com/embed/5TC2QkqqtgQ",
     },
     {
         id:Math.random(),
@@ -129,7 +129,7 @@ export const movieData = [
         duration:"111 min",
         genre:"VOSTFR / Fantastique / Romance",
         director:"Claudia Myers",
-        trailer:"https://www.youtube.com/watch?v=AAcplHUDzyI&pp=ugMICgJmchABGAE%3D"
+        trailer:"https://www.youtube.com/embed/zo6i3cJoIGc",
     },
     {
         id:Math.random(),
@@ -141,6 +141,6 @@ export const movieData = [
         duration:"93 min",
         genre:"Thom Fitzgerald",
         director:"Comedie / Drame",
-        trailer:"https://www.youtube.com/watch?v=-AvSoHSYLeA"
+        trailer:"https://www.youtube.com/embed/-AvSoHSYLeA",
     }
-]
+];

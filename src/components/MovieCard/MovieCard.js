@@ -8,21 +8,21 @@ const MovieCard = ({ movie }) => {
   const renderTooltip = (props) => (
     <Tooltip id="img-tooltip" {...props} >
       <h6 style={{textAlign:"left"}}>{movie.title}</h6>
-      <h6 style={{textAlign:"left"}}>
+      <p style={{textAlign:"left"}}>
         <Clock size="15px" style={{textAlign:"left",color:"#B8611F"}}/>
         {movie.duration}
         <Calendar size="15px" style={{textAlign:"left",color:"#B8611F"}}/>
         {movie.dateDeSortie}
-      </h6>
-      <h6 style={{textAlign:"left"}}>{movie.description}</h6>
-      <h6 style={{textAlign:"left"}}>
+      </p>
+      <p style={{textAlign:"left"}}>{movie.description}</p>
+      <p style={{textAlign:"left"}}>
         <Layout size="15px" style={{textAlign:"left",color:"#B8611F"}} />
         Genre:{movie.genre}
-      </h6>
-      <h6 style={{textAlign:"left"}}>
+      </p>
+      <p style={{textAlign:"left"}}>
         <User size="15px" style={{textAlign:"left",color:"#B8611F"}}/>
         Director:{movie.director}
-      </h6>
+      </p>
     </Tooltip>
   );
   return (
@@ -56,7 +56,7 @@ const MovieCard = ({ movie }) => {
           </h6>
           <h6 style={{ color: "#B8611F" }}>{movie.dateDeSortie}</h6>
         </Card>
-        <Link to={`/MovieCard/${movie.id}`}><Button variant="outline-secondary" style={{justifyContent:"center",marginTop:"20px",marginBottom:"20px", marginLeft:"50px"}}>Click here</Button></Link>
+        <Link to={`/${movie.id}`}><Button variant="outline-secondary" style={{justifyContent:"center",marginTop:"20px",marginBottom:"20px", marginLeft:"50px"}}>Click here</Button></Link>
     
     </div>
   );

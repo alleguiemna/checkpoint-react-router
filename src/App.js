@@ -6,12 +6,10 @@ import MovieList from "./components/MovieList/MovieList";
 import Filter from "./components/Filter/Filter";
 import AddMovie from "./components/AddMovie/AddMovie";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Login from "./components/Filter/Login";
-import Acceuil from "./components/Filter/Acceuil";
-import MenuFilm from "./components/Filter/MenuFilm";
-import Menu from "./components/Filter/Menu";
-import MovieDetails from "./components/MovieDetails/MovieDetails";
+import MovieDetails  from "./components/MovieDetails/MovieDetails";
+import { BrowserRouter as Router, Route} from 'react-router-dom'
+
+
 
 
 function App() {
@@ -36,23 +34,19 @@ function App() {
         ratingChanged={ratingChanged}
         rating={rating}
       />
-      <Switch>
-      <Route path="/" component={Acceuil} exact/>
-      <Route path="/MenuFilm" component={MenuFilm}/>
-      <Route path="/Menu" component={Menu}/>
-      <Route path="/Login" component={Login}/>
-      <Route path="/MovieCard/:id" render={(props) => <MovieDetails {...props} movieList={movieList}/>}/>
-      </Switch>
-        <MovieList
+      
+      <Route path="/"  exact render={() =><MovieList
         movieList={movieList.filter(
           (movie) =>
             movie.title.toUpperCase().includes(title.toUpperCase()) &&
             movie.rating >= rating
-        )}
-      />
+        )}/> }/>
+      <Route path="/:id" render={(props) => <MovieDetails {...props} movieList={movieList}/>}/>
+      <Route path="/" render={() =><AddMovie handleAdd={handleAdd}/>}/>
+      <Route path="/" component={Footer} />
+     
       </Router>
-      <AddMovie handleAdd={handleAdd} />
-      <Footer />
+      
       <p
         style={{
           fontFamily: "Montserrat,sans-serif 300 30px",
