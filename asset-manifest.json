@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/checkpoint-react-router/static/css/main.029e5650.chunk.css",
+    "main.js": "/checkpoint-react-router/static/js/main.56941e09.chunk.js",
+    "main.js.map": "/checkpoint-react-router/static/js/main.56941e09.chunk.js.map",
+    "runtime-main.js": "/checkpoint-react-router/static/js/runtime-main.4a10e1d3.js",
+    "runtime-main.js.map": "/checkpoint-react-router/static/js/runtime-main.4a10e1d3.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/checkpoint-react-router/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.14b763dc.chunk.js": "/checkpoint-react-router/static/js/2.14b763dc.chunk.js",
+    "static/js/2.14b763dc.chunk.js.map": "/checkpoint-react-router/static/js/2.14b763dc.chunk.js.map",
+    "static/js/3.dd894a7e.chunk.js": "/checkpoint-react-router/static/js/3.dd894a7e.chunk.js",
+    "static/js/3.dd894a7e.chunk.js.map": "/checkpoint-react-router/static/js/3.dd894a7e.chunk.js.map",
+    "index.html": "/checkpoint-react-router/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/checkpoint-react-router/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.029e5650.chunk.css.map": "/checkpoint-react-router/static/css/main.029e5650.chunk.css.map",
+    "static/js/2.14b763dc.chunk.js.LICENSE.txt": "/checkpoint-react-router/static/js/2.14b763dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a10e1d3.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.14b763dc.chunk.js",
+    "static/css/main.029e5650.chunk.css",
+    "static/js/main.56941e09.chunk.js"
+  ]
+}
