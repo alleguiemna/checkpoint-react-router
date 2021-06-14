@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/alleguiemna/checkpoint-react-router.git/static/css/main.029e5650.chunk.css",
-    "main.js": "/alleguiemna/checkpoint-react-router.git/static/js/main.2f198df9.chunk.js",
-    "main.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/main.2f198df9.chunk.js.map",
+    "main.js": "/alleguiemna/checkpoint-react-router.git/static/js/main.e74eefa8.chunk.js",
+    "main.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/main.e74eefa8.chunk.js.map",
     "runtime-main.js": "/alleguiemna/checkpoint-react-router.git/static/js/runtime-main.cad11119.js",
     "runtime-main.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/runtime-main.cad11119.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/alleguiemna/checkpoint-react-router.git/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.086f4f24.chunk.js": "/alleguiemna/checkpoint-react-router.git/static/js/2.086f4f24.chunk.js",
-    "static/js/2.086f4f24.chunk.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/2.086f4f24.chunk.js.map",
+    "static/js/2.f82e69dc.chunk.js": "/alleguiemna/checkpoint-react-router.git/static/js/2.f82e69dc.chunk.js",
+    "static/js/2.f82e69dc.chunk.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/2.f82e69dc.chunk.js.map",
     "static/js/3.dd894a7e.chunk.js": "/alleguiemna/checkpoint-react-router.git/static/js/3.dd894a7e.chunk.js",
     "static/js/3.dd894a7e.chunk.js.map": "/alleguiemna/checkpoint-react-router.git/static/js/3.dd894a7e.chunk.js.map",
     "index.html": "/alleguiemna/checkpoint-react-router.git/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/alleguiemna/checkpoint-react-router.git/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.029e5650.chunk.css.map": "/alleguiemna/checkpoint-react-router.git/static/css/main.029e5650.chunk.css.map",
-    "static/js/2.086f4f24.chunk.js.LICENSE.txt": "/alleguiemna/checkpoint-react-router.git/static/js/2.086f4f24.chunk.js.LICENSE.txt"
+    "static/js/2.f82e69dc.chunk.js.LICENSE.txt": "/alleguiemna/checkpoint-react-router.git/static/js/2.f82e69dc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cad11119.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.086f4f24.chunk.js",
+    "static/js/2.f82e69dc.chunk.js",
     "static/css/main.029e5650.chunk.css",
-    "static/js/main.2f198df9.chunk.js"
+    "static/js/main.e74eefa8.chunk.js"
   ]
 }
