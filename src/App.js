@@ -7,7 +7,7 @@ import Filter from "./components/Filter/Filter";
 import AddMovie from "./components/AddMovie/AddMovie";
 import Footer from "./components/Footer/Footer";
 import MovieDetails  from "./components/MovieDetails/MovieDetails";
-import { BrowserRouter as Router, Route} from 'react-router-dom'
+import {  Route} from 'react-router-dom'
 
 
 
@@ -27,7 +27,6 @@ function App() {
   };
   return (
     <div className="App">
-      <Router>
       <Filter
         handleChange={handleChange}
         title={title}
@@ -44,8 +43,9 @@ function App() {
       <Route path="/:id" render={(props) => <MovieDetails {...props} movieList={movieList}/>}/>
       <Route path="/" render={() =><AddMovie handleAdd={handleAdd}/>}/>
       <Route path="/" component={Footer} />
+      
      
-      </Router>
+      
       
       <p
         style={{
