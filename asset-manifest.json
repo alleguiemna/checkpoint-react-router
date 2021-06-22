@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/checkpoint-react-router/static/css/main.029e5650.chunk.css",
-    "main.js": "/checkpoint-react-router/static/js/main.2f198df9.chunk.js",
-    "main.js.map": "/checkpoint-react-router/static/js/main.2f198df9.chunk.js.map",
+    "main.js": "/checkpoint-react-router/static/js/main.57091c5e.chunk.js",
+    "main.js.map": "/checkpoint-react-router/static/js/main.57091c5e.chunk.js.map",
     "runtime-main.js": "/checkpoint-react-router/static/js/runtime-main.4a10e1d3.js",
     "runtime-main.js.map": "/checkpoint-react-router/static/js/runtime-main.4a10e1d3.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/checkpoint-react-router/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.086f4f24.chunk.js",
     "static/css/main.029e5650.chunk.css",
-    "static/js/main.2f198df9.chunk.js"
+    "static/js/main.57091c5e.chunk.js"
   ]
 }
