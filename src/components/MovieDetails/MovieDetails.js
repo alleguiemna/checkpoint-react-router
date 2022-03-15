@@ -21,10 +21,8 @@ import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 
 const MovieDetails = ({ movieList, match }) => {
-  const movie = movieList.find(
-    (elt) => elt.id.toString() === match.params.id.toString()
-  );
-  console.log({ movie });
+  const movie = movieList.find( (elt) => elt.id.toString() === match.params.id.toString());
+  console.log(movie);
   return (
     <div style={{ backgroundColor: "#111611" }} className="">
       <div style={{marginLeft:"80px",marginRight:"80px"}}>

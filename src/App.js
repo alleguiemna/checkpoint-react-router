@@ -7,7 +7,7 @@ import Filter from "./components/Filter/Filter";
 import AddMovie from "./components/AddMovie/AddMovie";
 import Footer from "./components/Footer/Footer";
 import MovieDetails  from "./components/MovieDetails/MovieDetails";
-import {  Route} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 
 
 
@@ -27,23 +27,28 @@ function App() {
   };
   return (
     <div className="App">
-      <Filter
+     
+     
+       <Filter
         handleChange={handleChange}
         title={title}
         ratingChanged={ratingChanged}
         rating={rating}
       />
       
-      <Route path="/"  exact render={() =><MovieList
+      <Router> 
+      <Switch>
+      <Route path="/" exact render={() =><MovieList
         movieList={movieList.filter(
           (movie) =>
             movie.title.toUpperCase().includes(title.toUpperCase()) &&
             movie.rating >= rating
         )}/> }/>
-      <Route path="/:id" render={(props) => <MovieDetails {...props} movieList={movieList}/>}/>
-      <Route path="/" render={() =><AddMovie handleAdd={handleAdd}/>}/>
-      <Route path="/" component={Footer} />
-      
+      <Route path="/:id"  render={(props) => <MovieDetails {...props} movieList={movieList}/>}/> 
+      <Route path="/"  render={() =><AddMovie handleAdd={handleAdd}/>}/>
+      <Route path="/"  component={Footer} />
+      </Switch>
+     </Router>
      
       
       
